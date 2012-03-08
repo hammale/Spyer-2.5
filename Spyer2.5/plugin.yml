@@ -1,0 +1,8 @@
+name: Spyer
+main: me.hammale.world.world
+version: 2.5
+author: hammale
+commands:
+  spy:
+    description:
+    usage: "Error! Try /spy help for a list of commands"
