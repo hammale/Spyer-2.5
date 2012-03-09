@@ -1,8 +1,40 @@
 name: Spyer
-main: me.hammale.world.world
+main: me.hammale.Spyer.SpyerMain
 version: 2.5
-author: hammale
+description: Go invisible Spyer style!
+author: [hammale]
+description: 
 commands:
   spy:
     description:
-    usage: "Error! Try /spy help for a list of commands"
+    usage: "Incorrect command, use '/spy help' for help"
+  list:
+    description:
+    usage: |
+  who:
+    description:
+    usage: |
+  players:
+    description:
+    usage: |
+  online:
+    description:
+    usage: |  
+  playerlist:
+    description:
+    usage: |      
+permissions:
+    spyer.*:
+        description: Allows users to use ALL features of Spyer!
+        children:
+            spyer.admin: true
+            spyer.noitem: true
+            spyer.user: true
+        default: op   
+    spyer.user:
+        description: Allow user to toggle invisibility and check status            
+    spyer.admin:
+        description: Allows users to use admin features of Spyer
+    spyer.noitem:
+        description: Allow user to toggle invisibility and check status WITHOUT burning items
+          
